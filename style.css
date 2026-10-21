@@ -1,0 +1,91 @@
+  body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+header p {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.atividade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    padding: 30px;
+}
+
+section h2 {
+    font-size: 16px;
+    color: black;
+}
+
+.exemplo {
+    background-color: #C2F670;
+    color: black;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.exemplo1 {
+    width: 200px;
+    height: 200px;
+}
+
+.exemplo2 {
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+}
+
+.exemplo3 {
+    width: 200px;
+    height: 200px;
+    padding: 2em;
+    border: 4px solid #888888;
+}
+
+.exemplo4 {
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+    padding: 2em;
+    border: 4px solid #888888;
+}
+
+.exemplo5 {
+    width: 200px;
+    height: 200px;
+    margin: 1em 6em;
+    padding: 1em;
+    border: 4px dashed black;
+}
+
+.exemplo6 {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 1em 50px;
+    border: 2px solid black;
+}
+
+@media (max-width: 800px) {
+    .atividade {
+        grid-template-columns: 1fr;
+    }
+}
